@@ -1,0 +1,4 @@
+CREATE DATABASE musichan;
+\c musichan
+CREATE ROLE musichan WITH LOGIN PASSWORD 'pa55word';
+CREATE EXTENSION IF NOT EXISTS citext;
